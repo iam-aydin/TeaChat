@@ -5,11 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TeaChat</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
   </head>
   <body>
+    <div class="overlay"></div>
     <div class="background-div">
-      <div class="overlay"></div>
-      <div id="message-container"></div>
+      <div id="message-container">
+        <div id="message" class="message-by-me">
+          <p id="message-text">Hello, this is a Test.</p>
+          <span id="message-send-time">11:01</span>
+        </div>
+
+        <div id="message" class="message-received">
+          <p id="message-text">سلام، چطوری؟</p>
+          <span id="message-send-time">11:01</span>
+        </div>
+        <div id="message" class="message-by-me">
+          <p id="message-text">
+            Hello, مرحبا، হেলো, 你好,你好, Здравствуйте, Γειά σου, હેલો, שלום,
+            こんにちは, ಹೆಲ್ಲೋ, 안녕하세요, สวัสดี, ഹെല്ലോ, Сайн байна уу,
+            မင်္ကြိုးတော့ပါ, नमस्ते, سلام, Привет, හෙල්ලො, 你好, Салом, สวัสดี,
+            Merhaba, Привіт, ہیلو, Chào, Hola, העלצא, Sawubona
+          </p>
+          <span id="message-send-time">11:02</span>
+        </div>
+        <div id="message" class="message-by-me">
+          <p id="message-text">Hello, this is a Test.</p>
+          <span id="message-send-time">11:01</span>
+        </div>
+        <div id="message" class="message-received">
+          <p id="message-text">سلام، چطوری؟</p>
+          <span id="message-send-time">11:01</span>
+        </div>
+        <div id="message" class="message-by-me">
+          <p id="message-text">
+            Hello, مرحبا، হেলো, 你好,你好, Здравствуйте, Γειά σου, હેલો, שלום,
+            こんにちは, ಹೆಲ್ಲೋ, 안녕하세요, สวัสดี, ഹെല്ലോ, Сайн байна уу,
+            မင်္ကြိုးတော့ပါ, नमस्ते, سلام, Привет, හෙල්ලො, 你好, Салом, สวัสดี,
+            Merhaba, Привіт, ہیلو, Chào, Hola, העלצא, Sawubona
+          </p>
+          <span id="message-send-time">11:02</span>
+        </div>
+      </div>
       <form action="" id="send-container">
         <textarea
           type="text"
@@ -40,6 +77,5 @@
         </button>
       </form>
     </div>
-    <script src="./script.js"></script>
   </body>
 </html>

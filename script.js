@@ -59,3 +59,12 @@ document.addEventListener("focusin", function (e) {
 document.addEventListener("focusout", function () {
   isInputFocused = false;
 });
+
+function toggleMenu() {
+  var menuOptions = document.getElementById('menu-options');
+  if (menuOptions.style.display === "none") {
+      menuOptions.style.display = "block";
+  } else {
+      menuOptions.style.display = "none";
+  }
+}
